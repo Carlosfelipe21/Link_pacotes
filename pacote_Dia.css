@@ -1,0 +1,62 @@
+body {
+  background-image: url("./produtos/fundo dia.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+.caixa {
+    display: grid;                   /* ativa o grid */
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */                  /* espaço entre as imagens */
+    width: 100%;    
+    gap: 20px;                  /* ocupa toda a largura disponível */
+    max-width: 320px;                   /* centraliza horizontalmente */
+}
+
+.foto1{
+    max-width: 260px;                    /* ocupa toda a célula do grid */
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-left: -92px;
+}
+.foto2{
+    max-width: 300px;                    /* ocupa toda a célula do grid */
+    height: auto;
+    margin: 0 auto;
+    margin-top: -125px;
+    margin-left: -140px;
+}
+
+
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+.caixa {
+    display: grid;                   /* ativa o grid */
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */                  /* espaço entre as imagens */
+    width: 100%;    
+    gap: 20px;                  /* ocupa toda a largura disponível */
+    max-width: 320px;                   /* centraliza horizontalmente */
+}
+
+.foto1{
+    max-width: 260px;                    /* ocupa toda a célula do grid */
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-left: -92px;
+}
+.foto2{
+    max-width: 300px;                    /* ocupa toda a célula do grid */
+    height: auto;
+    margin: 0 auto;
+    margin-top: -125px;
+    margin-left: -140px;
+}
+
+}

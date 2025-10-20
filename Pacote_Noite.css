@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+    background-image: url("./produtos/fundo\ noite.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+}
