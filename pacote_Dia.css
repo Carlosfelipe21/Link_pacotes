@@ -1,0 +1,384 @@
+body {
+  background-image: url("./produtos/fundo dia.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 20px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(3, 68, 105);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(70, 139, 241);
+    }
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -100px;
+        margin-left: -92px;
+        
+    }
+    .decoracao2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -135px;
+        margin-left: -140px;
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -230px;
+        margin-left: -92px;
+    }
+
+    .mimos2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -280px;
+        margin-left: -140px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -88px;
+    }
+
+    .doces2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -240px;
+        margin-left: -145px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -92px;
+    }
+
+    .salgados2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -260px;
+        margin-left: -140px;
+    }
+    .valor{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -100px;
+        background-color: rgb(67, 144, 245);
+        border-radius: 20px;
+    }
+
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 20px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(3, 68, 105);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(70, 139, 241);
+    }
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -100px;
+        margin-left: -92px;
+        
+    }
+    .decoracao2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -135px;
+        margin-left: -140px;
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -230px;
+        margin-left: -92px;
+    }
+
+    .mimos2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -280px;
+        margin-left: -140px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -88px;
+    }
+
+    .doces2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -240px;
+        margin-left: -145px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -92px;
+    }
+
+    .salgados2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -260px;
+        margin-left: -140px;
+    }
+    .valor{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -100px;
+        background-color: rgb(67, 144, 245);
+        border-radius: 20px;
+    }
+}
+
+
+@media(min-width: 425px) and (max-width: 767px){
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 20px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(3, 68, 105);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(70, 139, 241);
+    }
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -100px;
+        margin-left: -92px;
+        
+    }
+    .decoracao2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -135px;
+        margin-left: -140px;
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -230px;
+        margin-left: -92px;
+    }
+
+    .mimos2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -280px;
+        margin-left: -140px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -88px;
+    }
+
+    .doces2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -240px;
+        margin-left: -145px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 260px;                   
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -215px;
+        margin-left: -92px;
+    }
+
+    .salgados2{
+        max-width: 310px;                   
+        height: auto;
+        margin: 0 auto;
+        margin-top: -260px;
+        margin-left: -140px;
+    }
+    .valor{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -100px;
+        background-color: rgb(67, 144, 245);
+        border-radius: 20px;
+    }
+}
